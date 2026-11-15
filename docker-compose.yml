@@ -1,0 +1,6 @@
+services:
+ floci:
+   image: floci/floci:latest
+   container_name: floci-test
+   ports:
+     - "4567:4566"
